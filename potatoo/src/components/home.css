@@ -1,0 +1,29 @@
+.home_search_bar {
+  width: 400px;
+  margin: 40px 550px;
+  height: 37px;
+  border-color: rgb(192, 192, 192);
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.home {
+  display: flex;
+}
+.home h1 {
+  position: absolute;
+  top: 15px;
+  margin-left: 50px;
+  font-family: serif;
+  position: fixed;
+}
+.home img {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  right: 400px;
+  top: 40px;
+}
+
+ 
