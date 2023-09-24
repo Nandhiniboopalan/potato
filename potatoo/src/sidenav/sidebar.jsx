@@ -1,10 +1,11 @@
 import REACT from "react";
 import "./sidebar.css";
+import { Link } from 'react-router-dom';
+
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profile from "../images/profile.jpg";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
-// import Sidebar from "../sidenav/sidebar";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import heart from "../images/heart.png";
 import post from "../images/post.png";
@@ -29,7 +30,7 @@ export default function Sidebar(){
 
           <li>
             <img src={explore}></img>
-            <p>Settings</p>{" "}
+            <p><Link to="settings" style={{color: "inherit",textDecoration:"none"}}>Settings</Link></p>{" "}
           </li>
           <li>
             <img src={email}></img>
